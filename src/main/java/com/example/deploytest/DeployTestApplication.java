@@ -10,6 +10,7 @@ public class DeployTestApplication {
 
 	public static void main(String[] args) {
 		System.out.println("HI Im dev branch");
+		System.out.println("workflows/gradle.yml생성");
 		SpringApplication.run(DeployTestApplication.class, args);
 	}
 
